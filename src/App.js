@@ -35,7 +35,7 @@ function App() {
       <Navbar Mode={Mode} toogleMode={tootgleMode} toogleMode2={tootgleMode2}/>
       <Routes>
         <Route
-          path="/"
+          path="/home"
           element={
             <div className="container my-3">
               <TextFrom heading="Enter The Text Here To Analyze" />
